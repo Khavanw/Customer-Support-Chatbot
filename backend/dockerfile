@@ -1,0 +1,29 @@
+FROM python:3.11-slim
+
+# Cài đặt curl vào container
+RUN apt-get update && apt-get install -y curl
+
+WORKDIR /app
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+COPY . /app
+
+EXPOSE 5000
+
+# Tạo file shell để kiểm tra kết nối tới Qdrant
+RUN echo "#!/bin/bash\n\
+until curl -s http://qdrant:6333/health; do\n\
+  echo \"Waiting for Qdrant to be ready...\"\n\
+  sleep 2\n\
+done\n\
+echo \"Qdrant is ready!\"\n\
+# Start FastAPI\n\
+exec uvicorn src.api.main:app --host 0.0.0.0 --port 5000" > /start.sh
+
+# Cấp quyền thực thi cho file shell
+RUN chmod +x /start.sh
+
+# Chạy script khởi động khi container bắt đầu
+CMD ["/start.sh"]
