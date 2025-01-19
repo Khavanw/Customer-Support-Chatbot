@@ -208,7 +208,7 @@ function ChatBot(props) {
           ["start", ["", sourceData]]
         ]);
 
-        const response = await fetch("http://localhost:5000/api/query", {
+        const response = await fetch("https://99df-27-68-65-6.ngrok-free.app/api/query", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
