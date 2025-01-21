@@ -7,5 +7,5 @@ This project aims to develop a customer support chatbot system to assist users i
 ![WorkFlow](Workflow/WorkFlow_Chatbot.png)
 
 ## Demo
-- Video Demo: 
+- Video Demo: https://storage.googleapis.com/ascchatbot/source/ASC.mp4
 - Live front-end (no server): https://khavanw.github.io/Customer-Support-Chatbot/ 
