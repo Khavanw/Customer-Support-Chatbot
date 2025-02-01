@@ -33,20 +33,21 @@ This project aims to develop a customer support chatbot system to assist users i
 
 ## 🚀 Key Features
 
-- 🔹 Multi-Source Data Support
- + The chatbot can process data from various formats, including PDF, Word, and Excel.
- + Data is chunked and converted into JSON format for efficient processing.
+- 🔹 **Multi-Source Data Support**  
+  - The chatbot can process data from various formats, including **PDF, Word, and Excel**.  
+  - Data is **chunked** and converted into **JSON format** for efficient processing.  
 
-- 🔹 Dual Embedding System
- + Uses semantic embeddings (fine-tuned model) and sparse embeddings (keyword matching) to enhance search accuracy.
- + Embedding Model: [ASC_Emdedding](https://huggingface.co/vankha/asc_embedding) is fine-tuned to match project-specific data.
+- 🔹 **Dual Embedding System**  
+  - Uses **semantic embeddings** (fine-tuned model) and **sparse embeddings** (keyword matching) to enhance search accuracy.  
+  - **Embedding Model**: [ASC_Embedding](https://huggingface.co/vankha/asc_embedding) is fine-tuned to match project-specific data.  
 
-- 🔹 Hybrid Search Mechanism
- + Combines semantic search and keyword search for optimized query results.
- + Utilizes a reranking model to improve result accuracy.
+- 🔹 **Hybrid Search Mechanism**  
+  - Combines **semantic search** and **keyword search** for optimized query results.  
+  - Utilizes a **reranking model** to improve result accuracy.  
 
-- 🔹 Gemini LLM Integration
- + Leverages Gemini 1.5 with custom prompt templates for generating natural and precise responses.
+- 🔹 **Gemini LLM Integration**  
+  - Leverages **Gemini 1.5** with custom **prompt templates** for generating natural and precise responses.  
 
-- 🔹 Easy Deployment
- + The application is containerized using Docker and deployed as RESTful APIs with FastAPI.
+- 🔹 **Easy Deployment**  
+  - The application is **containerized using Docker** and deployed as **RESTful APIs** with **FastAPI**.  
+
