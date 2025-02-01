@@ -32,7 +32,7 @@ This project aims to develop a customer support chatbot system to assist users i
 ![Chatbot2](demo/Chatbot2.png)
 
 ## 🚀 Key Features
-🔹Multi-Source Data Support
+🔹 Multi-Source Data Support
 - The chatbot can process data from various formats, including PDF, Word, and Excel.
 - Data is chunked and converted into JSON format for efficient processing.
 🔹 Dual Embedding System
