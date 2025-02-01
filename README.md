@@ -24,6 +24,12 @@ This project aims to develop a customer support chatbot system to assist users i
 ## Demo
 - Video Demo: https://storage.googleapis.com/ascchatbot/source/ASC.mp4
 - Live front-end (no server): https://khavanw.github.io/Customer-Support-Chatbot/ 
+- Homepage
+![Homepage](demo/Homepage.png)
+- Chatbot
+![Chatbot](demo/Chatbot.png)
+![Chatbot1](demo/Chatbot1.png)
+![Chatbot2](demo/Chatbot2.png)
 
 ## 🚀 Key Features
 🔹Multi-Source Data Support
@@ -31,7 +37,7 @@ This project aims to develop a customer support chatbot system to assist users i
 - Data is chunked and converted into JSON format for efficient processing.
 🔹 Dual Embedding System
 - Uses semantic embeddings (fine-tuned model) and sparse embeddings (keyword matching) to enhance search accuracy.
-- Embedding Model: ASC Embedding ([link](https://huggingface.co/vankha/asc_embedding)) is fine-tuned to match project-specific data.
+- Embedding Model: [ASC_Emdedding](https://huggingface.co/vankha/asc_embedding) is fine-tuned to match project-specific data.
 🔹 Hybrid Search Mechanism
 - Combines semantic search and keyword search for optimized query results.
 - Utilizes a reranking model to improve result accuracy.
