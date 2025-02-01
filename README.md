@@ -6,7 +6,7 @@ This project aims to develop a customer support chatbot system to assist users i
 ## 🎯 Objectives
 - Reduce support team size by 30% through automated customer query handling.
 - Lower API costs by 40% using a combination of semantic embeddings and keyword filtering.
-- Achieve 85% retrieval accuracy and 95% uptime, with response times under 1 second.
+- Achieve 85% retrieval accuracy and 95% uptime, with response times under 5 second.
 
 ## 🛠 Technologies Used
 - Programming Language: Python
@@ -32,16 +32,21 @@ This project aims to develop a customer support chatbot system to assist users i
 ![Chatbot2](demo/Chatbot2.png)
 
 ## 🚀 Key Features
+
 🔹 Multi-Source Data Support
 - The chatbot can process data from various formats, including PDF, Word, and Excel.
 - Data is chunked and converted into JSON format for efficient processing.
+<br>
 🔹 Dual Embedding System
 - Uses semantic embeddings (fine-tuned model) and sparse embeddings (keyword matching) to enhance search accuracy.
 - Embedding Model: [ASC_Emdedding](https://huggingface.co/vankha/asc_embedding) is fine-tuned to match project-specific data.
+<br>
 🔹 Hybrid Search Mechanism
 - Combines semantic search and keyword search for optimized query results.
 - Utilizes a reranking model to improve result accuracy.
+<br>
 🔹 Gemini LLM Integration
 - Leverages Gemini 1.5 with custom prompt templates for generating natural and precise responses.
+<br>
 🔹 Easy Deployment
 - The application is containerized using Docker and deployed as RESTful APIs with FastAPI.
