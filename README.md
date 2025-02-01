@@ -54,7 +54,7 @@ The **Customer Support Chatbot** is an automated customer support system built u
   - The application is **containerized using Docker** and deployed as **RESTful APIs** with **FastAPI**.  
 
 ## 📂 Project Structure
-
+```bash
 Customer-Support-Chatbot/
 ├── backend/ # Backend source code
 │ ├── data/ # Input data (PDF, Word, Excel)
@@ -78,7 +78,7 @@ Customer-Support-Chatbot/
 │ └── package.json 
 ├── docker-compose.yml # Docker Compose configuration for both Frontend & Backend
 └── README.md # Project documentation
-
+```
 ## 🛠 Installation & Running the Project  
 
 ### 1️⃣ Setup Environment  
