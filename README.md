@@ -1,22 +1,24 @@
 ﻿# ASC Chatbot - A customer support chatbot using LLM + Document Retriever (RAG) in Vietnamese
 
 ## 📝 Project Description
-This project aims to develop a customer support chatbot system to assist users in configuring and setting up various features in the company's software. The primary data sources include PDF, Word, and Excel files collected from the company's private repository.
+The **Customer Support Chatbot** is an automated customer support system built using **Retrieval-Augmented Generation (RAG)** architecture combined with **Gemini LLM** and **LlamaIndex**. This chatbot is designed to enhance customer support efficiency, reduce operational costs, and improve the accuracy of responses to customer queries.
 
 ## 🎯 Objectives
-- Reduce support team size by 30% through automated customer query handling.
-- Lower API costs by 40% using a combination of semantic embeddings and keyword filtering.
-- Achieve 85% retrieval accuracy and 95% uptime, with response times under 5 second.
+- **Reduce** support team size by **30%** through automated customer query handling.
+- **Lower API costs** by **40%** using a combination of **semantic embeddings** and **keyword filtering**.
+- Achieve **85% retrieval accuracy** and **95% uptime**, with response times under **5 second**.
 
 ## 🛠 Technologies Used
-- Programming Language: Python
-- AI Models: Gemini LLM, RAG Architecture, LlamaIndex
-- Natural Language Processing (NLP): Sentence-Transformers, PhoBERT
-- Embedding Model: ASC Embedding (Fine-tuned)
-- Vector Database: Qdrant
-- Backend: FastAPI, Docker
-- Deployment: RESTful APIs, Docker Container
-- Other Tools: Git, Postman
+- **Programming Language**: Python
+- **AI Models**: Gemini LLM, RAG Architecture, LlamaIndex
+- **Natural Language Processing (NLP)**: Sentence-Transformers
+- **Embedding Model**: ASC Embedding (Fine-tuned)
+- **Sparese Model**: Qdrant/bm42-all-minilm-l6-v2-attentions (HuggingFace)
+- **Rerank Model**: cross-encoder/ms-marco-MiniLM-L-6-v2 (HuggingFace)
+- **Vector Database**: Qdrant
+- **Backend**: FastAPI, Docker
+- **Deployment**: RESTful APIs, Docker Container
+- **Other Tools**: Git, Postman
 
 ## Workflow
 ![WorkFlow](Workflow/WorkFlow_Chatbot.png)
