@@ -55,10 +55,11 @@ The **Customer Support Chatbot** is an automated customer support system built u
 
 ## 📂 Project Structure
 
-Customer-Support-Chatbot/
+Customer-Support-Chatbot/   
+
 ├── backend/               # Backend source code
-│   ├── data/              # Directory containing input data (PDF, Word, Excel)
-│   ├── models/            # Directory containing fine-tuned AI models
+│   ├── data/            
+│   ├── models/           
 │   ├── src/               # Main source code
 │   │   ├── data_processing/  
 │   │   ├── embeddings/        
