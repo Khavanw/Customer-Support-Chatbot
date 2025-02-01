@@ -55,29 +55,29 @@ The **Customer Support Chatbot** is an automated customer support system built u
 
 ## 📂 Project Structure
 
-Customer-Support-Chatbot/   
-├── backend/               # Backend source code
-│   ├── data/            
-│   ├── models/           
-│   ├── src/               # Main source code
-│   │   ├── data_processing/  
-│   │   ├── embeddings/        
-│   │   ├── search/           
-│   │   ├── api/               
-│   │   └── utils/             
-│   ├── Dockerfile         
-│   └── requirements.txt  
-├── frontend/              # Frontend source code
-│   ├── public/            
-│   ├── src/              
-│   │   ├── components/   
-│   │   ├── pages/        
-│   │   ├── App.js         
-│   │   └── index.js       
-│   ├── Dockerfile        
-│   └── package.json      
-├── docker-compose.yml     # Docker Compose configuration file to run both Frontend and Backend
-└── README.md             
+Customer-Support-Chatbot/
+├── backend/ # Backend source code
+│ ├── data/ # Input data (PDF, Word, Excel)
+│ ├── models/ # Fine-tuned AI models
+│ ├── src/ # Main source code
+│ │ ├── data_processing/
+│ │ ├── embeddings/ 
+│ │ ├── search/ 
+│ │ ├── api/ 
+│ │ └── utils/ 
+│ ├── Dockerfile 
+│ └── requirements.txt 
+├── frontend/ # Frontend source code
+│ ├── public/ 
+│ ├── src/ 
+│ │ ├── components/ 
+│ │ ├── pages/ 
+│ │ ├── App.js 
+│ │ └── index.js 
+│ ├── Dockerfile 
+│ └── package.json 
+├── docker-compose.yml # Docker Compose configuration for both Frontend & Backend
+└── README.md # Project documentation
 
 ## 🛠 Installation & Running the Project  
 
