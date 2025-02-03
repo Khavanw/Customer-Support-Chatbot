@@ -12,7 +12,7 @@ The **Customer Support Chatbot** is an automated customer support system built u
 - **Programming Language**: Python
 - **AI Models**: Gemini LLM, RAG Architecture, LlamaIndex
 - **Natural Language Processing (NLP)**: Sentence-Transformers
-- **Embedding Model**: ASC Embedding (Fine-tuned)
+- **Embedding Model**: ASC Embedding ([Fine-tuned](https://huggingface.co/vankha/asc_embedding))
 - **Sparese Model**: Qdrant/bm42-all-minilm-l6-v2-attentions ([HuggingFace](https://huggingface.co/Qdrant/all_miniLM_L6_v2_with_attentions))
 - **Rerank Model**: cross-encoder/ms-marco-MiniLM-L-6-v2 ([HuggingFace](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2))
 - **Vector Database**: Qdrant
